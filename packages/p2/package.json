@@ -1,5 +1,8 @@
 {
   "name": "@yoavain/p2",
   "version": "0.0.1",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@yoavain/p1": "file:../p1"
+  }
 }
