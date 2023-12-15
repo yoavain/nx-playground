@@ -1,0 +1,24 @@
+{
+    "name": "@yoavain/b",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "0.0.0",
+    "description": "module b",
+    "main": "dist/index.js",
+    "types": "dist/index.d.js",
+    "scripts": {
+        "build": "tsc --project tsconfig.build.json",
+        "eslint": "eslint src/** test/**",
+        "eslint:fix": "npm run eslint -- --fix",
+        "type-check": "tsc",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "yoavain",
+    "license": "ISC",
+    "dependencies": {
+        "@yoavain/a": "*",
+        "@yoavain/c": "*"
+    }
+}

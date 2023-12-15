@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "p1": "packages/p1",
-    "p2": "packages/p2"
-  }
-}
