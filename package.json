@@ -16,7 +16,9 @@
     "eslint:fix": "nx run-many --target eslint:fix",
     "type-check": "nx run-many --target type-check",
     "test": "nx run-many --target test",
-    "set-version": "pnpm version 0.0.22 --ws --include-workspace-root || git add *package.json && git commit -m 'v%VERSION%'"
+    "version:all": "pnpm version 0.0.22 --ws --include-workspace-root || git add *package.json && git commit -m 'v%VERSION%'",
+    "pack:all": "pnpm recursive exec -- pnpm pack",
+    "publish:all": "pnpm recursive exec -- pnpm publish"
   },
   "devDependencies": {
     "@jest/types": "29.6.3",
