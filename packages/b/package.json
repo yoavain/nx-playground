@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "module b",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
@@ -18,7 +18,7 @@
     "author": "yoavain",
     "license": "ISC",
     "dependencies": {
-        "@yoavain/a": "*",
-        "@yoavain/c": "*"
+        "@yoavain/a": "0.0.1",
+        "@yoavain/c": "0.0.1"
     }
 }
