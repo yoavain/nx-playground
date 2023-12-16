@@ -15,7 +15,9 @@
       "cache": true
     },
     "test": {
-      "cache": true
+      "cache": true,
+	  "outputs": ["{projectRoot}/coverage"]
     }
-  }
+  },
+  "nxCloudAccessToken": "MzliMDA0ZTgtYTg1Yy00NWQxLWJhMzEtYTNiZTdjNTEwYTZlfHJlYWQtd3JpdGU="
 }
