@@ -72,16 +72,16 @@ importers:
   packages/a:
     dependencies:
       '@yoavain/c':
-        specifier: workspace:0.0.2
+        specifier: workspace:*
         version: link:../c
 
   packages/b:
     dependencies:
       '@yoavain/a':
-        specifier: workspace:0.0.2
+        specifier: workspace:*
         version: link:../a
       '@yoavain/c':
-        specifier: workspace:0.0.2
+        specifier: workspace:*
         version: link:../c
 
   packages/c: {}

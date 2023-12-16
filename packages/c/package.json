@@ -3,10 +3,13 @@
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "module c",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
+    "files": [
+        "dist"
+    ],
     "keywords": [],
     "author": "yoavain",
     "license": "ISC",

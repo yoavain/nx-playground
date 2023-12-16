@@ -3,10 +3,13 @@
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "module a",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
+    "files": [
+        "dist"
+    ],
     "keywords": [],
     "author": "yoavain",
     "license": "ISC",
@@ -22,6 +25,6 @@
         "test": "jest"
     },
     "dependencies": {
-        "@yoavain/c": "workspace:0.0.2"
+        "@yoavain/c": "workspace:*"
     }
 }
