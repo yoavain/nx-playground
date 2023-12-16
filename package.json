@@ -15,7 +15,8 @@
     "eslint": "nx run-many --target eslint",
     "eslint:fix": "nx run-many --target eslint:fix",
     "type-check": "nx run-many --target type-check",
-    "test": "nx run-many --target test"
+    "test": "nx run-many --target test",
+    "version": "pnpm version %VERSION% --ws --include-workspace-root || git add *package.json && git commit -m 'v%VERSION%'"
   },
   "devDependencies": {
     "@jest/types": "29.6.3",
