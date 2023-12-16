@@ -3,6 +3,13 @@
   "version": "0.0.3",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">= 18",
+    "pnpm": ">= 8"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "nx run-many --target build",
     "eslint": "nx run-many --target eslint",
@@ -31,8 +38,5 @@
     "ts-jest": "29.1.1",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }

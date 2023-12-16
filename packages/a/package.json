@@ -7,6 +7,13 @@
     "description": "module a",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
+    "keywords": [],
+    "author": "yoavain",
+    "license": "ISC",
+    "engines": {
+        "node": ">= 18",
+        "pnpm": ">= 8"
+    },
     "scripts": {
         "build": "tsc --project tsconfig.build.json",
         "eslint": "eslint src/** test/**",
@@ -14,10 +21,7 @@
         "type-check": "tsc",
         "test": "jest"
     },
-    "keywords": [],
-    "author": "yoavain",
-    "license": "ISC",
     "dependencies": {
-        "@yoavain/c": "0.0.2"
+        "@yoavain/c": "workspace:0.0.2"
     }
 }
