@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "0.0.10",
+    "version": "0.0.22",
     "description": "module a",
     "main": "dist/index.js",
     "types": "dist/index.d.js",
